@@ -10,9 +10,10 @@
 						<div class="thumbnail" style="height: 370px;">
 							<img src="<?php echo base_url(); ?>assets/img/upload/<?= $buku->image; ?>" style="max-width:100%; maxheight: 100%; height: 200px; width: 180px">
 							<div class="caption">
+								<br>
 								<h5 style="min-height:30px;"><?= $buku->pengarang ?></h5>
-								<h5><?= $buku->penerbit ?></h5>
-								<h5><?= substr($buku->tahun_terbit, 0, 4) ?></h5>
+								<h7><?= $buku->penerbit ?></h7>
+								<h8><?= substr($buku->tahun_terbit, 0, 4) ?><br></h8>
 								<p>
 									<?php
 									if ($buku->stok < 1) {
