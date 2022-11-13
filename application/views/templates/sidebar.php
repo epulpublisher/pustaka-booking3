@@ -44,12 +44,12 @@
         	</li>
         	<li class="nav-item">
         		<a class="nav-link pb-0" href="<?= base_url('buku'); ?>">
-        			<i class="fa fa-fw fa book"></i>
+        			<i class="fa fa-fw fa-book"></i>
         			<span>Data Buku</span></a>
         	</li>
         	<li class="nav-item">
         		<a class="nav-link pb-0" href="<?= base_url('user/anggota'); ?>">
-        			<i class="fa fa-fw fa book"></i>
+        			<i class="fa fa-fw fa-book"></i>
         			<span>Data Anggota</span></a>
         	</li>
         	</li>
@@ -71,6 +71,32 @@
         		<a class="nav-link pb-0" href="<?= base_url('pinjam/daftarBooking'); ?>">
         			<i class="fa fa-fw fa-list"></i>
         			<span>Data Booking</span></a>
+        	</li>
+        	</li>
+        	<!-- Divider -->
+        	<hr class="sidebar-divider mt-3">
+
+        	<!-- Heading -->
+        	<div class="sidebar-heading">
+        		Laporan
+        	</div>
+        	<!-- Nav Item - Dashboard -->
+        	<li class="nav-item active">
+        		<!-- Nav Item - Dashboard -->
+        	<li class="nav-item">
+        		<a class="nav-link pb-0" href="<?= base_url('laporan/laporan_buku'); ?>">
+        			<i class="fa fa-fw fa-book"></i>
+        			<span>Laporan Data Buku</span></a>
+        	</li>
+        	<li class="nav-item">
+        		<a class="nav-link pb-0" href="<?= base_url('laporan/laporan_anggota'); ?>">
+        			<i class="fa fa-fw fa-users"></i>
+        			<span>Laporan Data Anggota</span></a>
+        	</li>
+        	<li class="nav-item">
+        		<a class="nav-link pb-0" href="<?= base_url('laporan/laporan_pinjam'); ?>">
+        			<i class="fa fa-fw fa-list"></i>
+        			<span>Laporan Peminjam</span></a>
         	</li>
         	</li>
         	<!-- Divider -->
