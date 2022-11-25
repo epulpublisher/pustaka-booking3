@@ -55,9 +55,10 @@
 			?>
 		</tbody>
 	</table>
-	<script type="text/javascript">
-		window.print();
-	</script>
+
 </body>
+<script>
+	window.print();
+</script>
 
 </html>

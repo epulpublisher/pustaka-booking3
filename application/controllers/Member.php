@@ -83,7 +83,6 @@ class Member extends CI_Controller
 				'password' => password_hash($this->input->post('password1'), PASSWORD_DEFAULT),
 				'role_id' => 2,
 				'is_active' => 1,
-				'tanggal_input' => time(),
 			];
 			$this->ModelUser->simpanData($data);
 			$this->session->set_flashdata('pesan', '<div class="alert alert-success alert-message" role="alert">Selamat!! akun anggota anda sudah dibuat.</div>');

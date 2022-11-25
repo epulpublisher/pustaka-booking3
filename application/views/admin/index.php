@@ -1,5 +1,5 @@
 <!-- Begin Page Content -->
-<div class="container-fluid">
+<div class="container-fluid bg-transparent">
 
 	<!-- row ux-->
 	<div class="row">
@@ -118,8 +118,9 @@
 							<td><?= $a['email']; ?></td>
 							<td><?= $a['role_id']; ?></td>
 							<td><?= $a['is_active']; ?></td>
-							<td><?= $a['tanggal_input']; ?></td>
-							<!-- <td><?= date('Y', $a['tanggal_input']); ?></td> -->
+							<td><?php $dateend = date_create($a['tanggal_input']);
+								echo date_format($dateend, "d/m/y"); ?>
+								<!-- <td><?= date('Y', $a['tanggal_input']); ?></td> -->
 						</tr>
 					<?php } ?>
 				</tbody>
